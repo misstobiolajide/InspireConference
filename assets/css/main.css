@@ -492,7 +492,7 @@ a {
     padding-top: 0;
     padding-bottom: 0;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 100px);
     width: 100%;
     background-image: url('../img/inspire-background2.jpg');
     background-size: cover;
@@ -572,6 +572,23 @@ only screen and (max-device-width: 768px) {
         font-size: 4px;
     }
 }
+
+#info-panel {
+	margin: 0; padding: 0
+}
+#info-panel  > .container-fluid {
+	background: #222;
+	min-height: 100px;
+}
+#info-panel h2  {
+	color: #ffffff;
+}
+
+#info-panel .info-panel-location {
+	font-size: 14px;
+	line-height: 16px
+}
+
 
 #info {
     padding: 70px 0 90px 0;
@@ -718,7 +735,7 @@ only screen and (max-device-width: 768px) {
 
 #program {
     color: #ffffff;
-    background: #b9e0cf;
+    background: #e0c9b9;
     padding: 70px 0 90px 0;
 }
 
@@ -2911,7 +2928,7 @@ a.post-thumbnail:focus {
 
 /* INFO SECTION */
 #info{
-    background-color: #b9e0cf !important;
+    background-color: #e0c9b9 !important;
     background: url(../img/bg-live-listen-2.webp) no-repeat;    
 }
 
@@ -2976,6 +2993,9 @@ a.post-thumbnail:focus {
 	
     #highlight h2 {
         font-size: 32px;
+    }
+    #slider {
+	    height: 100vh;
     }
 	#slider .top-layer {
 		bottom: 100px;
