@@ -55,8 +55,6 @@
 	});
 	document.addEventListener("touchstart", function () {}, true);
 }(jQuery));
-
-
 (function ($) {
 	'use strict';
 	$(window).load(function () {
@@ -67,26 +65,9 @@
 			topSpacing: 0,
 		});
 		$('#preload').delay(350).fadeOut('slow');
-		// $("#contentz").mCustomScrollbar({
-		// 	theme: "dark-3",
-		// 	live: "on",
-		// });
+		$("#contentz").mCustomScrollbar({
+			theme: "dark-3",
+			live: "on",
+		});
 	});
 }(jQuery));
-
-
-jQuery(document).ready(function($){
-  $("#hotel-carousel").owlCarousel({
-      itemsCustom : [
-[0, 1],
-[450, 1],
-[600, 2],
-[700, 3],
-[1000, 3],
-[1200, 3],
-],
-      autoPlay: false,
-      pagination: true,
-      dots: true
-  });
-});
