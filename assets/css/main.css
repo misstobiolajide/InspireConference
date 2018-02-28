@@ -2815,7 +2815,7 @@ a.post-thumbnail:focus {
 }
 
 .navbar-header .scroll-to img {
-    max-width: 120px;
+    max-width: 130px;
 }
 
 .navbar-header .navbar-toggle {
@@ -2970,6 +2970,10 @@ a.post-thumbnail:focus {
 /* RESPONSIVE */
 
 @media (max-width:768px) {
+	.navbar-header .scroll-to img {
+	    margin-left: 20px
+	}
+	
     #highlight h2 {
         font-size: 32px;
     }
