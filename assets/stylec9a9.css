@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 body {
 	color: #666666;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'Open Sans';
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 23px;
@@ -18,14 +18,12 @@ h6 {
 
 h2 {
 	color: #262626;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratbold';
 	font-size: 40px;
 	margin-bottom: 5px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 h3 {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	font-size: 28px;
 	letter-spacing: -2px;
 	color: #262626;
@@ -33,13 +31,11 @@ h3 {
 }
 
 h4 {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	font-size: 18px;
 	letter-spacing: 1px;
 }
 
 h5 {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 }
 
 section {
@@ -93,7 +89,6 @@ a {
 
 .navbar-custom,
 .navbar-custom-blog {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'Open sans';
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -273,7 +268,6 @@ only screen and (max-device-width: 768px) {
 }
 
 .speaker-thumb h4 {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	font-size: 16px;
 	letter-spacing: 1px;
 	margin-bottom: 0;
@@ -292,7 +286,6 @@ only screen and (max-device-width: 768px) {
 
 .speaker-thumb .company {
 	color: #999999;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'Open sans';
 	font-size: 10px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -315,12 +308,10 @@ only screen and (max-device-width: 768px) {
 }
 
 #speaker-detail h2 {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	margin-bottom: 12px;
 }
 
 #speaker-detail h2 span {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratbold';
 }
 
 #speaker-detail img {
@@ -480,14 +471,12 @@ only screen and (max-device-width: 768px) {
 
 #program .date {
 	color: #000;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	margin-bottom: 0;
 	font-size: 17px;
 	line-height: 18px;
 }
 
 #program .speaker-name {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	font-size: 12px;
 	letter-spacing: 1px;
 }
@@ -649,7 +638,6 @@ only screen and (max-device-width: 480px) {
 }
 
 .hotel .caption h5 {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 }
 
 .hotel .caption .rating {
@@ -697,7 +685,6 @@ only screen and (max-device-width: 480px) {
 }
 
 #funfacts .number {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratbold';
 	font-size: 40px;
 	font-weight: 700;
 	margin-top: 15px;
@@ -754,7 +741,6 @@ only screen and (max-device-width: 767px) {
 
 .price-table .price {
 	color: #444444;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratbold';
 	font-size: 50px;
 	font-weight: 400;
 }
@@ -775,7 +761,6 @@ only screen and (max-device-width: 767px) {
 }
 
 .price-table .desc li {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 	line-height: 2;
 	border-bottom: 1px dotted;
 	border-color: rgba(255, 255, 255, 0.7);
@@ -849,7 +834,6 @@ only screen and (max-device-width: 767px) {
 
 #testimonial .name {
 	color: #ffffff;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratbold';
 	font-size: 12px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -941,7 +925,6 @@ only screen and (max-device-width: 767px) {
 
 #footer dt {
 	color: #ffffff;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 	font-size: 13px;
 	margin-top: 7px;
 	margin-bottom: 3px;
@@ -991,7 +974,6 @@ textarea {
 }
 
 .button {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	font-size: 17px;
 	text-transform: uppercase;
 	border: none;
@@ -1380,7 +1362,6 @@ h2.screen-reader-text {
 .nav-links .nav-next a {
 	color: #262626;
 	border: 1px solid#262626;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratregular';
 	padding: 5px 7px;
 }
 
@@ -1417,22 +1398,18 @@ h2.screen-reader-text {
 
 .search-field::-webkit-input-placeholder {
 	color: #999;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 }
 
 .search-field::-moz-placeholder {
 	color: #999;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 }
 
 .search-field:-ms-input-placeholder {
 	color: #999;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 }
 
 .search-field input:-moz-placeholder {
 	color: #999;
-	font-family: 'Gotham A', 'Gotham B', 'Gotham', 'montserratlight';
 }
 
 .search-submit {
