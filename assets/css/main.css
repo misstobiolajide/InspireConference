@@ -1010,6 +1010,7 @@ only screen and (max-device-width: 480px) {
     padding: 0;
     background-attachment: fixed!important;
     background: rgba(0, 0, 0, 0.7);
+    background: url("../img/funfacts.jpg") no-repeat;
 }
 
 .funfacts-inner {
@@ -1036,7 +1037,7 @@ only screen and (max-device-width: 480px) {
     vertical-align: middle;
 }
 
-#funfacts .number {
+#funfacts .int-value {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -1052,6 +1053,8 @@ only screen and (max-device-width: 480px) {
     text-transform: uppercase;
 }
 
+
+.pricing-footer p{line-height: 20px;font-size: 12px;}
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
     #funfacts {
@@ -1064,7 +1067,7 @@ only screen and (max-device-width: 767px) {
 }
 
 #register {
-    background: #f5f5f5;
+    background:#b9e0cf;
     border-bottom: 1px solid #f0f0f0;
     padding: 70px 0 90px 0;
 }
@@ -1167,7 +1170,9 @@ only screen and (max-device-width: 767px) {
     background: #fac42b;
     color: #ffffff;
     padding: 0;
-}
+    background-image: url("../img/tgw16_main_hall.jpg") !important;
+    overflow: hidden;
+    }
 
 #testimonial .testimonial-inner {
     background: rgba(0, 0, 0, 0.7);

@@ -89,4 +89,36 @@ jQuery(document).ready(function($){
       pagination: true,
       dots: true
   });
+
+
+$("#price-carousel").owlCarousel({
+      itemsCustom : [
+[0, 1],
+[450, 1],
+[600, 2],
+[700, 3],
+[1000, 4],
+[1200, 4],
+],
+      autoPlay: false,
+      pagination: true,
+      dots:true
+  });
+
+
+$("#sponsors-carousel").owlCarousel({
+      itemsCustom : [
+[0, 1],
+[450, 1],
+[600, 2],
+[700, 3],
+[1000, 6],
+[1200, 6],
+],
+      autoPlay: true,
+      pagination: true,
+      dots:true
+  });
+
+
 });
