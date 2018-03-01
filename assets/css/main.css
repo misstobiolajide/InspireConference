@@ -495,6 +495,7 @@ a {
     height: calc(100vh - 100px);
     width: 100%;
     background-image: url('../img/inspire-background2.jpg');
+    background-attachment: fixed;
     background-size: cover;
 }
 
