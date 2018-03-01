@@ -577,9 +577,11 @@ only screen and (max-device-width: 768px) {
 	margin: 0; padding: 0
 }
 #info-panel  > .container-fluid {
-	background: #222;
+	background: #e0c9b9;
 	min-height: 100px;
 }
+
+#info-panel > .container-fluid .col-sm-7 {background: #222;}
 #info-panel h2  {
 	color: #ffffff;
 }
@@ -897,6 +899,10 @@ only screen and (max-device-width: 480px) {
     padding-top: 0;
     padding-bottom: 0px;
     margin-bottom: 110px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
 }
 
 #venue .venue {
@@ -1010,6 +1016,9 @@ only screen and (max-device-width: 480px) {
     background-attachment: fixed!important;
     background: rgba(0, 0, 0, 0.7);
     background: url("../img/funfacts.jpg") no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .funfacts-inner {
@@ -1066,7 +1075,7 @@ only screen and (max-device-width: 767px) {
 }
 
 #register {
-    background:#b9e0cf;
+    background:#e0c9b9;
     border-bottom: 1px solid #f0f0f0;
     padding: 70px 0 90px 0;
 }
@@ -1674,6 +1683,14 @@ figure.effect-ming:hover img {
 .hentry table {
     width: 100%;
 }
+
+
+.time_circles>div>span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    }
+
+
 
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
@@ -2834,6 +2851,7 @@ a.post-thumbnail:focus {
 
 .time_circles>div>h4 {
     font-size: 10px!important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-header .scroll-to img {
@@ -2979,6 +2997,28 @@ a.post-thumbnail:focus {
     background: #fff !important;
 }
 
+/* MIDDLE CONTENT WRAP */
+
+.middle-content-wrap{
+    margin-top: -200px !important;
+    background-color: #ffffff !important;
+}
+
+.middle-wrap-container{
+    background: #fff;
+}
+
+
+.middle-wrap-heading{
+    font-size: 46px;
+    color: #3a3a3a;
+    line-height: 1;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;    
+}
+
 /*@media (min-width: 1024px){
 .col-md-2 {
     width: 16.66666667% !important;
@@ -2988,6 +3028,13 @@ a.post-thumbnail:focus {
 }       
 }*/
 
+
+
+#inner-header{
+    background: url("../img/tgc-womens-floor2.jpg");
+    padding-top: 250px !important;
+    padding-bottom: 250px !important;
+    }
 
 /* RESPONSIVE */
 
@@ -3034,4 +3081,11 @@ a.post-thumbnail:focus {
     #program .nav-tabs>li>a {
         padding: 10px 0;
     }
+
+
+#inner-header {
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+}
+
 }

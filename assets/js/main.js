@@ -121,4 +121,35 @@ $("#sponsors-carousel").owlCarousel({
   });
 
 
+
+$("#DateCountdown").TimeCircles({
+					"animation": "smooth",
+					"use_background": false,
+					"bg_width": 0,
+					"fg_width": 0,
+
+					"time": {
+						"Days": {
+							"text": "Days",
+							"color": "#fac42b",
+							"show": true
+						},
+						"Hours": {
+							"text": "Hours",
+							"color": "#fac42b",
+							"show": true
+						},
+						"Minutes": {
+							"text": "Minutes",
+							"color": "#fac42b",
+							"show": true
+						},
+						"Seconds": {
+							"text": "Seconds",
+							"color": "#fac42b",
+							"show": true
+						}
+					}
+				});
+
 });
