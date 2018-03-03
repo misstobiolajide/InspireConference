@@ -564,6 +564,36 @@ a {
     display: none!important;
 }
 
+
+
+.mfp-close{
+    color: #ffffff;
+    background: #000 !important;
+    opacity: 1 !important;    
+width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    padding: 0 0 18px 10px;
+    color: white;
+    font-style: normal;
+    font-size: 28px;
+    z-index: 2 !important;
+    /*font-family: Arial,Baskerville,monospace;*/
+}
+
+.mfp-close:hover{
+    color: #fff !important;
+    background: #000 !important;
+}
+
+@media(min-width: 992px){.custom-modal .modal-body{padding: 0px !important;}}
 @media only screen and (max-width: 768px),
 only screen and (max-device-width: 768px) {
     #highlight .left p {
